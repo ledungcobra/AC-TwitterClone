@@ -140,6 +140,9 @@ public class TwitterUserActivity extends AppCompatActivity implements AdapterVie
     }
 
     private void transitionToSendTwitActivity() {
+        Intent intent = new Intent(this, SendTweetActivity.class);
+        startActivity(intent);
+
     }
 
     private void transitionToLoginActivity() {
